@@ -1,0 +1,42 @@
+// dilonoume apo 3 metavlites gia kathe ena apo ta primitives data type (int, float, boolean, char)
+// dinoume 2 apo tis treis metavlites, ti megaliteri dinati timi poy dexete to kathe data type (me anazitisi apo to diadiktio)
+// kanoume prosthesi metaxi ton dio metavliton toy kathe data type kai apothikevoume to apotelesma stin triti metavliti toy idioy tipou
+// tiponoume to periexomeno kai to megethos apo tis trites metavlites
+#include <iostream>
+#include <limits.h>
+using namespace std;
+
+int main()
+{
+	
+	int ai,bi,ci;
+	float af,bf,cf;
+	char ac,bc,cc;
+	bool ab, bb,cb;
+		
+	ai=2147483647;
+	bi=2147483647;
+	ci=ai+bi;
+	
+	af=3.4*10;
+	bf=3.4*10;
+	cf=af+bf;
+	
+	ac=255;
+	bc=255;
+	cc=ac+bc;
+	
+	ab=1;
+	bb=1;
+	cb=ab+bb;
+	
+	cout << "H triti metavliti tou Int: " << ci << endl;
+	
+	cout << "H triti metavliti tou Float: " << cf << endl;
+
+	cout << "H triti metavliti tou Char: " << cc << endl;
+	
+	cout << "H triti metavliti tou Boolean: " << cb << endl;
+
+	return 0;
+}

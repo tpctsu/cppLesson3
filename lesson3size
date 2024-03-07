@@ -4,6 +4,8 @@
 // tiponoume to periexomeno kai to megethos apo tis trites metavlites
 #include <iostream>
 #include <limits.h>
+#include <cmath>
+
 using namespace std;
 
 int main()
@@ -18,8 +20,8 @@ int main()
 	bi=2147483647;
 	ci=ai+bi;
 	
-	af=3.4*10;
-	bf=3.4*10;
+	af=3.4*pow(10,38);
+	bf=3.4*pow(10,38);
 	cf=af+bf;
 	
 	ac=255;
